@@ -30,6 +30,7 @@ A big thanks to all the people that help contribute:
 - esy_ - Submitted Github Issues
 - Sergei Grabalin (Сергей Грабалин) - Fixed Python2 Unicode Issues
 - `Matthieu Rigal`_ - Added session support
+- `Nick Masi`_ - Added New York State provider.
 
 .. _`Virus Warnning`: https://github.com/virus-warnning
 .. _`Kevin Brolly`: https://twitter.com/KevinBrolly
@@ -53,3 +54,4 @@ A big thanks to all the people that help contribute:
 .. _patrickyan: https://github.com/patrickyan
 .. _esy: https://github.com/lambda-conspiracy
 .. _Matthieu Rigal: https://github.com/MRigal
+.. _Nick Masi: https://github.com/N-Masi

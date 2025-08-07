@@ -222,6 +222,7 @@ $ geocode "Ottawa, ON" \
 | [MapQuest][MapQuest]           | World     | API key                         | yes              | yes     |           | yes   |
 | [~~Mapzen~~][Mapzen]           | Shutdown  | API key                         | yes              | yes     |           |       |
 | [MaxMind][MaxMind]             | World     |                                 |                  |         |           |       |
+| [NewYorkState][NewYorkState]   | NYS       |                                 | yes              |         |           |       |
 | [OpenCage][OpenCage]           | World     | API key                         | yes              | yes     |           |       |
 | [OpenStreetMap][OpenStreetMap] | World     | [Policy][OpenStreetMap-Policy]  | yes              | yes     |           |       |
 | [Tamu][Tamu]                   | US        | API key                         |                  |         |           |       |
@@ -342,3 +343,4 @@ See [CHANGELOG.md](./CHANGELOG.md)
 [Komoot]: http://photon.komoot.de
 [USCensus]: https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html
 [Gisgraphy]: https://premium.gisgraphy.com/
+[NewYorkState]: https://gis.ny.gov/system/files/documents/2022/07/geocoding-help-101.pdf

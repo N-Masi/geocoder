@@ -23,6 +23,7 @@ from geocoder.mapbox import MapboxQuery
 from geocoder.mapquest import MapquestQuery
 from geocoder.mapzen import MapzenQuery
 from geocoder.maxmind import MaxmindQuery
+from geocoder.newyorkstate import NewYorkStateQuery
 from geocoder.opencage import OpenCageQuery
 from geocoder.osm import OsmQuery, OsmQueryDetail
 from geocoder.ottawa import OttawaQuery
@@ -103,6 +104,7 @@ options = {
         'reverse': MapboxReverse,
     },
     'maxmind': {'geocode': MaxmindQuery},
+    'newyorkstate': {'geocode': NewYorkStateQuery},
     'ipinfo': {'geocode': IpinfoQuery},
     'geonames': {
         'geocode': GeonamesQuery,
@@ -659,3 +661,12 @@ def gisgraphy(location, **kwargs):
     :param ``location``: Your search location you want geocoded.
     """
     return get(location, provider='gisgraphy', **kwargs)
+
+
+def newyorkstate(location, **kwargs):
+    """New York State Office of Information Technology Services Provider
+
+    :param ``location``: Your search location you want geocoded.
+    :param ``maxRows``: (default=1) Max number of results to fetch
+    """
+    return get(location, provider='newyorkstate', **kwargs)
